@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Montserrat;
+}
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+section {
+  padding: 90px 0;
+}
+.first-screen {
+  height: 100vh;
+  clip-path: ellipse(100% 60% at 50% 35%);
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.section-bg {
+  color: #fff;
+  background: rgb(63, 3, 3);
+}
+h1 {
+  font-family: Lora;
+  font-size: 80px;
+}
+.btn {
+  padding: 13px 20px;
+  color: #fff;
+  border: 2px solid transparent;
+  text-decoration: none;
+  font-weight: 700;
+}
+.btn-bg {
+  background: #9b0a16;
+}
+.btn-outline {
+  border-color: #9b0a16;
+}
+h2 {
+  font-family: Lora;
+  font-size: 48px;
+  margin: 0 0 60px;
+}
+h3 {
+  display: inline;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+p {
+  font-size: 20px;
+  line-height: 2;
+  font-family: Montserrat;
+}
+.d-flex {
+  display: flex;
+}
+.w-60 {
+  width: 60%;
+}
+.w-40 {
+  width: 40%;
+}
+.pr-4 {
+  padding-right: 4rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+input,
+textarea {
+  padding: 15px;
+  font-size: 15px;
+  margin-bottom: 15px;
+  border: none;
+
+}
+input:focus,
+textarea:focus {
+  outline: none;
+}
+.box {
+  position: relative;
+  padding: 15px;
+  font-size: 15px;
+  margin-bottom: 15px;
+  border: none;
+  width: 456px;
+  height: 50px;
+  background: #408f99;
+  color: black;
+  box-shadow: 0 5px 20px rgb(0 0 0 / 30%);
+  outline: none;
+}
+.calc{
+  padding: 13px 20px;
+  color: #fff;
+  border: 2px solid transparent;
+  text-decoration: none;
+  background: #408f99;
+  appearance: auto;
+  user-select: none;
+  white-space: pre;
+  align-items: flex-start;
+  text-align: center;
+  cursor: default;
+  font: 400 13.3333px Arial;
+  font-size: 15px;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+.month-box, .service-box{
+  padding: 15px;
+  font-size: 15px;
+  margin-bottom: 15px;
+  border: none;
+}
