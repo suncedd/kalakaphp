@@ -40,15 +40,11 @@ $messages = $stmt->fetchAll();
                     <td><?= htmlspecialchars($message['kol']) ?></td>
                     <td><?= htmlspecialchars($message['nameServ']) ?></td>
                     <td><?= htmlspecialchars($message['name']) ?></td>
-                    <td><?= htmlspecialchars($message['price']) ?></td>
+                    <td><?= htmlspecialchars($message['cost']) ?></td>
                 </tr>
             <?php endforeach; ?>           
         </table>
     </div>
-    <pre>
-        <?php
-            print_r($messages);
-        ?>
-    </pre>
+ 
 </body>
 </html>
