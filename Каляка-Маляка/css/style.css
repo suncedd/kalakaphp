@@ -11,7 +11,7 @@ body {
   margin: 0 auto;
 }
 section {
-  padding: 90px 0;
+  padding: 10px 0;
 }
 .first-screen {
   height: 100vh;
@@ -21,8 +21,8 @@ section {
   position: relative;
 }
 .section-bg {
-  color: #fff;
-  background: rgb(63, 3, 3);
+  color: rgb(0, 0, 0);
+ 
 }
 h1 {
   font-family: Lora;
@@ -36,23 +36,20 @@ h1 {
   font-weight: 700;
 }
 .btn-bg {
-  background: #9b0a16;
+  background: #8c8f04;
 }
 .btn-outline {
-  border-color: #9b0a16;
+  border-color: #978d03;
 }
 h2 {
   font-family: Lora;
-  font-size: 48px;
-  margin: 0 0 60px;
+  font-size: 35px;
+  margin: 0 0 5px;
 }
 h3 {
   display: inline;
   font-size: 1.17em;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  margin-block-start: 5px;
   font-weight: bold;
 }
 p {
@@ -78,10 +75,10 @@ form {
 }
 input,
 textarea {
-  padding: 15px;
+  padding: 5px;
   font-size: 15px;
   margin-bottom: 15px;
-  border: none;
+  border: 1px solid black;
 
 }
 input:focus,
@@ -96,8 +93,10 @@ textarea:focus {
   border: none;
   width: 456px;
   height: 50px;
-  background: #408f99;
+  background: #006e21;
   color: black;
+ 
+  border: 1px solid black;
   box-shadow: 0 5px 20px rgb(0 0 0 / 30%);
   outline: none;
 }
@@ -106,7 +105,7 @@ textarea:focus {
   color: #fff;
   border: 2px solid transparent;
   text-decoration: none;
-  background: #408f99;
+  background: #226109;
   appearance: auto;
   user-select: none;
   white-space: pre;
@@ -119,8 +118,9 @@ textarea:focus {
   font-weight: 700;
 }
 .month-box, .service-box{
-  padding: 15px;
+  padding: 5px;
   font-size: 15px;
   margin-bottom: 15px;
-  border: none;
+  border-color: black;
+  border: 1px solid black;
 }
